@@ -1,0 +1,5 @@
+# FMOD Studio homebrew gitignore
+
+# should all folders that start with . (such as .cache/ .user/ etc.)
+# reasoning for this taken from https://qa.fmod.com/t/fmod-studio-unity-gitignore/13114
+.*/*
