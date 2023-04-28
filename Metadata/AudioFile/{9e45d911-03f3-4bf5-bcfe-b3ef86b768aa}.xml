@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{9e45d911-03f3-4bf5-bcfe-b3ef86b768aa}">
+		<property name="assetPath">
+			<value>SFX/Player/Guns/Barrett-M82-.50-BMG-Single-Close-Gunshot-B.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.6480000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{aabe86a6-a671-471c-9b14-5be13efa5470}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{10c6bcb5-3672-4f5b-a375-ab09836de2a2}">
+		<property name="assetPath">
+			<value>SFX/Player/Guns/Beefy-Barrett-M82-.50-BMG-Single-Close-Gunshot-C.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.4160000000000004</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{aabe86a6-a671-471c-9b14-5be13efa5470}</destination>
+		</relationship>
+	</object>
+</objects>
