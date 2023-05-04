@@ -114,7 +114,14 @@
 	</object>
 	<object class="MixerBusFader" id="{9b06240a-f960-4b66-b9c4-8b56671517e1}" />
 	<object class="MixerBusFader" id="{ca21e087-14b9-4ac1-b6db-ee84c6f0c53d}" />
-	<object class="SpatialiserEffect" id="{7148f8c2-f378-4842-a4b5-516700f72a7c}" />
+	<object class="SpatialiserEffect" id="{7148f8c2-f378-4842-a4b5-516700f72a7c}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{d5a214f8-128e-4649-862e-736ca894ec54}">
 		<relationship name="audioFile">
 			<destination>{9e45d911-03f3-4bf5-bcfe-b3ef86b768aa}</destination>

@@ -23,6 +23,8 @@
 			<destination>{3c79406c-a4c5-4114-8416-4a71adfbd946}</destination>
 		</relationship>
 		<relationship name="markerTracks">
+			<destination>{33bb3dbc-8372-47a7-ba4c-b63dd80d7b8f}</destination>
+			<destination>{0890c91d-be71-4328-9bd4-14381a535ad0}</destination>
 			<destination>{fe930912-5f96-4e2c-98d0-cd95adf1dacd}</destination>
 		</relationship>
 		<relationship name="groupTracks">
@@ -57,6 +59,8 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{3c79406c-a4c5-4114-8416-4a71adfbd946}" />
+	<object class="MarkerTrack" id="{33bb3dbc-8372-47a7-ba4c-b63dd80d7b8f}" />
+	<object class="MarkerTrack" id="{0890c91d-be71-4328-9bd4-14381a535ad0}" />
 	<object class="MarkerTrack" id="{fe930912-5f96-4e2c-98d0-cd95adf1dacd}" />
 	<object class="GroupTrack" id="{ce3e5361-b983-4c52-806b-128f1b3526cb}">
 		<relationship name="modules">
@@ -73,6 +77,7 @@
 		<relationship name="markers">
 			<destination>{bcbcf418-60d9-4075-9f09-a27985062606}</destination>
 			<destination>{1e25ebed-e7d3-4882-a1c6-2e1e7d60a288}</destination>
+			<destination>{a3815137-66cd-4467-ad8d-a2b6ec669417}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{1e1e41a7-04fd-4bef-908d-9cdc57c069dc}">
@@ -143,6 +148,26 @@
 		</relationship>
 		<relationship name="markerTrack">
 			<destination>{fe930912-5f96-4e2c-98d0-cd95adf1dacd}</destination>
+		</relationship>
+	</object>
+	<object class="TempoMarker" id="{a3815137-66cd-4467-ad8d-a2b6ec669417}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="tempo">
+			<value>80</value>
+		</property>
+		<property name="timeSignatureNumerator">
+			<value>8</value>
+		</property>
+		<property name="timeSignatureDenominator">
+			<value>8</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{5686106e-8502-442e-8e0d-1babd5bfeb10}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{33bb3dbc-8372-47a7-ba4c-b63dd80d7b8f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{6b9b6ca2-fb90-4d6a-82f0-1b46c477fe32}">
