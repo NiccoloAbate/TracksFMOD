@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{6c4eb04c-27bd-404d-9b5e-013905460072}">
+		<property name="assetPath">
+			<value>SFX/Player/PlayerHit/tracksHitTake-010.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.65000000000000002</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{aabe86a6-a671-471c-9b14-5be13efa5470}</destination>
+		</relationship>
+	</object>
+</objects>
