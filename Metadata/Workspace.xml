@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{73e0c07d-4402-49b8-af01-67abe664ecaf}">
+		<property name="builtBanksOutputDirectory">
+			<value>../Tracks/FMODBanks</value>
+		</property>
+		<property name="builtBanksEncryptionKey" />
 		<relationship name="masterEventFolder">
 			<destination>{37ed18ae-0cef-4dbb-b583-f33902ea1a46}</destination>
 		</relationship>
