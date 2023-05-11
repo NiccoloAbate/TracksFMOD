@@ -158,10 +158,10 @@
 			<value>80</value>
 		</property>
 		<property name="timeSignatureNumerator">
-			<value>8</value>
+			<value>16</value>
 		</property>
 		<property name="timeSignatureDenominator">
-			<value>8</value>
+			<value>16</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{5686106e-8502-442e-8e0d-1babd5bfeb10}</destination>
