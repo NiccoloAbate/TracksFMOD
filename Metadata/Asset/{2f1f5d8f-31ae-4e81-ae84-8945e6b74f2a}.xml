@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{2f1f5d8f-31ae-4e81-ae84-8945e6b74f2a}">
+		<property name="assetPath">
+			<value>Music/On The Rails Stems/OTR_STEMS/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{aabe86a6-a671-471c-9b14-5be13efa5470}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{2a0931ba-3243-4721-bd34-3a9b994dc60c}">
+		<property name="name">
+			<value>loopCombatTrack</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1d2f0f20-fcc0-4f27-8dd7-96ce49d50ba8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{afb46c1a-7094-4f56-8173-fdc711781348}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{afb46c1a-7094-4f56-8173-fdc711781348}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
