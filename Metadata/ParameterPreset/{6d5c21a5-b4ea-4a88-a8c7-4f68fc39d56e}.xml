@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{6d5c21a5-b4ea-4a88-a8c7-4f68fc39d56e}">
+		<property name="name">
+			<value>Swell</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1d2f0f20-fcc0-4f27-8dd7-96ce49d50ba8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2c3be90d-7c9a-4004-849c-09062015f597}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2c3be90d-7c9a-4004-849c-09062015f597}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
