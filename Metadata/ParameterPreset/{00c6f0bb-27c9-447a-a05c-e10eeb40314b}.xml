@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{00c6f0bb-27c9-447a-a05c-e10eeb40314b}">
+		<property name="name">
+			<value>isPaused</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1d2f0f20-fcc0-4f27-8dd7-96ce49d50ba8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8879c7a8-d26b-4090-8f50-0d446971f44e}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8879c7a8-d26b-4090-8f50-0d446971f44e}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>3.7999999523162842</value>
+		</property>
+		<property name="seekSpeedDescending">
+			<value>3.6000001430511475</value>
+		</property>
+		<property name="seekSpeedAsymmetric">
+			<value>true</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{97727eea-389e-4095-86e9-f2425542bc2c}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{97727eea-389e-4095-86e9-f2425542bc2c}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+		<property name="initialValue">
+			<value>-1</value>
+		</property>
+		<property name="peakValue">
+			<value>-2.22222137</value>
+		</property>
+		<property name="decayTime">
+			<value>720</value>
+		</property>
+		<property name="releaseTime">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

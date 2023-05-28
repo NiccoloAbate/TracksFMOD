@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{82a1f958-43a8-40c9-af4b-e3a207053ad8}">
+		<property name="name">
+			<value>isPausedTest</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1d2f0f20-fcc0-4f27-8dd7-96ce49d50ba8}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a13ef6b7-af15-4900-acee-f6c7532c4782}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a13ef6b7-af15-4900-acee-f6c7532c4782}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{d0e39fa6-1c7d-496e-b63b-fd0dfb1103a2}</destination>
+		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{d0e39fa6-1c7d-496e-b63b-fd0dfb1103a2}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>cursorPosition</value>
+		</property>
+	</object>
+</objects>
